@@ -15,10 +15,10 @@ export const Navbar = () => {
                 <nav id="navbar" ref={ref} className="navbar order-last order-lg-0 py-0">
                     <ul>
                         <li><Link to={'/'} className="nav-link scrollto active" href="#hero">Home</Link></li>
-                        <li><a className="nav-link scrollto" href="#clients">Partners</a></li>
+                        <li><a className="nav-link scrollto" href="#partners">Partners</a></li>
                         <li><a className="nav-link scrollto" href="#about">About</a></li>
-                        <li><a className="nav-link scrollto" href="#services">Genie</a></li>
-                        <li><a className="nav-link scrollto " href="#portfolio">Gallery</a></li>
+                        <li><a className="nav-link scrollto" href="#Genie">Genie</a></li>
+                        <li><a className="nav-link scrollto " href="#gallery">Gallery</a></li>
                         <li><a className="nav-link scrollto " href="#testimonials">StartUps</a></li>
                         <li><a className="nav-link scrollto" href="#team">Team</a></li>
                         <li><a className="nav-link scrollto" href="#mentor">Mentors</a></li>
