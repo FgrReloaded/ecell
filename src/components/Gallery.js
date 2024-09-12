@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 
 export const Gallery = () => {
     return (
-        <section id="portfolio" className="portfolio">
+        <section id="gallery" className="portfolio">
             <div className="container" data-aos="fade-up">
 
                 <div className="section-title">
@@ -125,7 +125,7 @@ export const Gallery = () => {
                     <div className="col-lg-4 col-md-6 portfolio-item filter-web">
 
                         <div style={{background: "rgba(17, 17, 17, 0.897)", position: "relative"}}>
-                            <img src="assets/images/gallery/18.jpg" className="img-fluid" alt="" style={{opacity: "0.3"}} />
+                            <img src="assets/images/gallery/18.JPG" className="img-fluid" alt="" style={{opacity: "0.3"}} />
                             <Link to="/gallery" data-gallery="portfolioGallery"
                                 style={{position:"absolute",right: "40%",top: "45%",color: "white",fontSize: "20px"}}>View More</Link>
 
